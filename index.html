@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"/>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -22,50 +20,57 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <!--Creaed 9AM-5PM timeblocks -->
-      <div class ="d-flex justify-content-center row">9AM
+      <!--Creaed 9AM-8PM timeblocks -->
+      <div class ="d-flex justify-content-center row hour">9AM
         <input type = "text" id="entertext1" class = "description" value = "">
-        <button type = "savebutton1" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton1" class ="saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">10AM
         <input type = "text" id="entertext2" class = "description" value = "">
-        <button type = "savebutton2" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton1" class ="saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">11AM
         <input type = "text" id="entertext3" class = "description" value = "">
-        <button type = "savebutton3" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton3" class ="saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">12PM
         <input type = "text" id="entertext4" class = "description" value = "">
-        <button type = "savebutton4" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton4" class ="saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">1PM
         <input type = "text" id="entertext5" class = "description" value = "">
-        <button type = "savebutton5" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton5" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">2PM
         <input type = "text" id="entertext6" class = "description" value = "">
-        <button type = "savebutton6" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton6" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">3PM
         <input type = "text" id="entertext7" class = "description" value = "">
-        <button type = "savebutton7" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton7" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">4PM
         <input type = "text" id="entertext8" class = "description" value = "">
-        <button type = "savebutton9" class = 'col-md-1'><i class = "far fa-save"></i>
+        <button type = "savebutton8" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
       <div class ="d-flex justify-content-center row">5PM
         <input type = "text" id="entertext9" class = "description" value = "">
-        <button type = "savebutton10" class = 'col-md-1'><i class = "far fa-save"></i>
+      <button type = "savebutton9" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
       </div>
-
-
-
-
-
-
-
+      <div class ="d-flex justify-content-center row">6PM
+        <input type = "text" id="entertext10" class = "description" value = "">
+      <button type = "savebutton10" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
+      </div>
+      <div class ="d-flex justify-content-center row">7PM
+        <input type = "text" id="entertext11" class = "description" value = "">
+      <button type = "savebutton11" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
+      </div>
+      <div class ="d-flex justify-content-center row">8PM
+        <input type = "text" id="entertext12" class = "description" value = "">
+      <button type = "savebutton12" class = "saveBtn col-md-1"><i class = "far fa-save"></i></button>
+      </div>
+    
+   <script src="./assets/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
